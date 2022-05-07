@@ -1,0 +1,9 @@
+*.docx
+
+*.md
+!docs/index.*
+!README.md
+
+*.png
+
+!docs/assets/*

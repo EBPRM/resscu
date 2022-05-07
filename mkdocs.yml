@@ -1,0 +1,66 @@
+site_name: Early Rehabilitation for War Casualties
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette: 
+    - scheme: default
+      toggle:
+        icon: fontawesome/solid/moon
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: fontawesome/solid/sun
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+  logo: assets/blue.png
+    
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        uk: Українська
+
+markdown_extensions:
+  - footnotes
+  - meta
+  - pymdownx.details
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      toc_depth: 3
+      permalink: true
+
+extra:
+  generator: false
+  alternate:
+    - name: English
+      link: ./en/ 
+      lang: en
+    - name: Українська
+      link: ./uk/
+      lang: uk
+  # social:
+  #   - icon: fontawesome/brands/twitter 
+  #     link: https://twitter.com/squidfunk
+
+
+extra_css:
+  - stylesheets/extra.css
+
+
+nav:
+  - Home: index.md
+  - Chapter 2: chap2.md
+  - Chapter 6: chap6.md
+  

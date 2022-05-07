@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>chap2/</loc>
+         <lastmod>2022-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/chap2/"/>
+         <xhtml:link rel="alternate" hreflang="uk" href="uk/chap2/"/>
+         
+    </url>
+    <url>
+         <loc>chap6/</loc>
+         <lastmod>2022-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/chap6/"/>
+         <xhtml:link rel="alternate" hreflang="uk" href="uk/chap6/"/>
+         
+    </url>
+    <url>
+         <loc>.</loc>
+         <lastmod>2022-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/"/>
+         <xhtml:link rel="alternate" hreflang="uk" href="uk/"/>
+         
+    </url>
+</urlset>
